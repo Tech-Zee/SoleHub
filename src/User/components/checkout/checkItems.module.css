@@ -1,0 +1,31 @@
+/* .itemCard{
+    border: 2px solid red;
+    margin-top: 150px;
+} */
+
+.cardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.itemCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.itemImg{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.imgBox{
+    background-color: grey;
+    border-radius: 5px;
+}
+.text{
+    font-size: 16px;
+}

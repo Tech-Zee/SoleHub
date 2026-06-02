@@ -1,0 +1,13 @@
+.checkWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.checkForm{
+    width: 60rem;
+}
+.checkSum{
+    width: 40rem;
+}

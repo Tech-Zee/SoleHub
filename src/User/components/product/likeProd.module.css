@@ -1,0 +1,40 @@
+.grid{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.itemImg{
+    height: 300px;
+    width: 250px;
+}
+.gridCard{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    line-height: 2;
+}
+.gridCard:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+.gridName{
+    font-size: 18px;
+}
+.gridTitle{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    color: var(--accent-color);
+}

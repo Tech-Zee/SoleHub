@@ -1,0 +1,12 @@
+.title{
+    margin-top: 60px;
+    color: var(--accent-color);
+    text-align: center;
+}
+.subtitle{
+    font-size: 16px;
+    margin-left: 40px;
+}
+.headerContent{
+    line-height: 3;
+}

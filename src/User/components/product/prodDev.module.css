@@ -1,0 +1,16 @@
+.devWrapper{
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 2.5;
+    padding: 10px;
+}
+.devTitle{
+    color: var(--accent-color);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.list{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}

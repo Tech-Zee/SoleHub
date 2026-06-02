@@ -1,0 +1,45 @@
+.option {
+  display: flex;
+  align-items: center;
+  line-height: 3;
+  cursor: pointer;
+}
+.input{
+    outline: none;
+    border: transparent;
+    border-bottom:2px solid var(--accent-color) ;
+    line-height: 2;
+    margin: 20px;
+    width: 300px;
+    color: black;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    margin: 5px;
+}
+.pay{
+    margin-left: 30px; 
+}
+.btn{
+    margin: 30px;
+    padding: 7px;
+    width: 300px;
+    background-color: var(--accent-color);
+    color: white;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+     background-color: #ff9500;
+    transform: translateY(-3px);
+    transition: 0.8s ease;
+    box-shadow: 0 8px 20px rgba(255,106,0,0.4);
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: white;
+}

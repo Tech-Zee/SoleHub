@@ -1,0 +1,43 @@
+.summary{
+    height: 400px;
+    width: 300px;
+    line-height: 3;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+.row{
+    word-spacing: 10px;
+    text-align: start;
+}
+.totalRow{
+    word-spacing: 10px;
+    text-align: start;
+}
+.title{
+    text-align: center;
+}
+.checkoutBtn{
+    margin-top: 40px;
+    width: 60%;
+    height: 40px;
+    border: 2px solid white;
+    background-color: white;
+    color: var(--accent-color);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.checkoutBtn .link{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+.link:hover{
+    color: white;
+}
+.checkoutBtn:hover{
+    background-color: var(--accent-color);
+    color: white;
+}

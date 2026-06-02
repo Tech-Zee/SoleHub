@@ -1,0 +1,13 @@
+body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  background: linear-gradient(135deg, #f7f7f7, #eaeaea);
+  /* background-color: #0f0f0f; */
+}
+#root{
+  min-height: 100vh;
+  background: #ffffff;
+}
+html{
+  scroll-behavior: smooth;
+}

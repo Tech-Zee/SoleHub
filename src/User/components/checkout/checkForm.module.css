@@ -1,0 +1,32 @@
+.pInfo{
+    margin-bottom: 50px;
+    margin-left: 30px;  
+}
+.sInfo{
+    margin-bottom: 50px;
+    margin-left: 30px;  
+}
+.delivery{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    line-height: 3; 
+}
+p{
+    font-size: 20px;
+    margin: 5px;
+}
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.input{
+    outline: none;
+    border: transparent;
+    border-bottom:2px solid var(--accent-color) ;
+    line-height: 2;
+    margin: 20px;
+    width: 300px;
+    color: black;
+}

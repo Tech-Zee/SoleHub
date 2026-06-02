@@ -1,0 +1,10 @@
+.headWrapper{
+    margin-top: 50px;
+    line-height: 3;
+}
+.checkTitle{
+    font-weight: 800;
+    margin-left: 100px;
+    font-size: 40px;
+    color: var(--accent-color);
+}

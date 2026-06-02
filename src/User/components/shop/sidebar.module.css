@@ -1,0 +1,65 @@
+.sideContainer{
+    width: 20%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    padding: 10px;
+    position: fixed;
+    color: #111827;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: scroll;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.sideText{
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: color 0.3s ease;
+    color: #374151;
+    line-height: 2;
+}
+button:hover{
+    color: var(--accent-color);
+}
+input[type="range"]{
+    width: 100%;
+    background: transparent;
+    appearance: none;
+    cursor: pointer;
+    color: #6b7280;
+
+}
+input[type="range"]::-webkit-slider-runnable-track{
+    height: 4px;
+    background: #6b7280;;
+    border-radius: 999px;
+}
+input[type="range"]::-webkit-slider-thumb{
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #6b7280;;
+    transition: 0.2s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover{
+    transform: scale(1.1);
+}
+.ratings{
+    padding: 5px;
+    transition: background 0.4s ease;
+}
+.ratings:hover{
+    background-color: var(--accent-color);
+    color: white;
+}

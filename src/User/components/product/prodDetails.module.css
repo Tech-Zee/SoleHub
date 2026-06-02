@@ -1,0 +1,35 @@
+.prodTop{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.prodImg{
+    width: 60%;
+}
+.prodLinks{
+    margin-top: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+}
+.prodLinks .links{
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--accent-color);
+    transition: all 0.5s ease;
+    padding: 5px;
+    border-bottom: 2px solid var(--accent-color) ;
+}
+.links:hover{
+       color: black ;
+       border-bottom: 2px solid black;
+}
+.links:focus{
+    color: black ;
+    border-bottom: 2px solid black;
+}

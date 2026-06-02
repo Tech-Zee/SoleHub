@@ -1,0 +1,31 @@
+.wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.rating{
+    padding: 10px;
+}
+.ratingTitle{
+    color: var(--accent-color);
+    font-size: 20px;
+    margin: 30px;
+}
+.reviewTitle{
+    color: var(--accent-color);
+    font-size: 20px;
+    margin: 30px;
+}
+.number{
+    color: var(--accent-color);
+    font-size: 13rem;
+}
+.num2{
+    font-size: 20px;
+}
+.review{
+    line-height: 2.5;
+}

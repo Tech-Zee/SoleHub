@@ -1,0 +1,11 @@
+.descWrapper{
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 2.5;
+    padding: 10px;
+}
+.descTitle{
+    color: var(--accent-color);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
