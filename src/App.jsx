@@ -6,6 +6,7 @@ import ProdDetails from "./User/components/product/prodDetails";
 import CartPage from "./User/pages/cart";
 import Checkout from "./User/components/checkout/checkout"
 import Success from "./User/pages/success"
+import About from "./User/pages/about";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -108,7 +109,7 @@ function App() {
 />
   <Route path="/checkout" element={<Checkout cart = {cart}/>}/>
   <Route path="/success" element= {<Success />}/>
-
+  <Route path="/about" element = {<About/>} />
       </Routes>
     </Router>
   );
