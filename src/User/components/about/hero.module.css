@@ -1,0 +1,17 @@
+.Herocontainer{
+    height: 500px;
+    width: 100%;
+    background-image: url(../assets/banner2.png);
+    background-repeat: no-repeat;
+    background-position: 90% 60%;
+    background-color: rgba(30,15,5,1);
+    position: absolute;
+}
+.heroText{
+    position: relative;
+    top: 150px;
+    left: 25px;
+    color: white;
+    font-size: 30px;
+    line-height: 3;
+}
